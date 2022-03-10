@@ -16,4 +16,7 @@ jobs:
       - run: |
           wget https://github.com/bible-technology/scripture-burrito/archive/develop.zip
           unzip develop.zip
-      - run: node scripture-burrito-develop/code/validate.js metadata metadata.json
+      - run: |
+          node scripture-burrito-develop/code/validate.js metadata source-scripture-x/metadata.json
+          node scripture-burrito-develop/code/validate.js metadata source-scripture-textTranslation/metadata.json
+          node scripture-burrito-develop/code/validate.js metadata source-scripture-audioTranslation/metadata.json
