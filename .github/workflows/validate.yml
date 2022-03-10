@@ -16,4 +16,4 @@ jobs:
       - run: |
           wget https://github.com/bible-technology/scripture-burrito/archive/develop.zip
           unzip develop.zip
-      - run: validate.sh
+      - run: ./validate.sh
