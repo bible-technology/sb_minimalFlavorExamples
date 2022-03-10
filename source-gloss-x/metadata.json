@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "version": "1.0.0-beta1",
+    "category": "source",
+    "defaultLanguage": "en",
+    "dateCreated": "2022-03-10T00:00:00+00:00"
+  },
+  "idAuthorities": {},
+  "identification": {
+    "primary": {
+      "xyz": {}
+    },
+    "name": {
+      "en": "minimal source gloss x-type-flavored burrito"
+    }
+  },
+  "confidential": false,
+  "copyright": {},
+  "type": {
+    "flavorType": {
+      "name": "gloss",
+      "flavor": {
+        "name": "x-example"
+      },
+      "currentScope": {
+        "1JN": []
+      }
+    }
+  },
+  "names": {}
+}
