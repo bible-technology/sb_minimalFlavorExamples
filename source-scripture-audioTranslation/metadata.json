@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "version": "1.0.0-beta1",
+    "category": "source",
+    "defaultLanguage": "en",
+    "dateCreated": "2022-03-10T00:00:00+00:00"
+  },
+  "idAuthorities": {},
+  "identification": {
+    "primary": {
+      "xyz": {}
+    },
+    "name": {
+      "en": "minimal source scripture audioTranslation-flavored burrito"
+    }
+  },
+  "confidential": false,
+  "copyright": {},
+  "type": {
+    "flavorType": {
+      "name": "scripture",
+      "flavor": {
+        "name": "audioTranslation",
+        "performance": ["singleVoice", "reading"],
+        "formats": {}
+      },
+      "currentScope": {
+        "1JN": []
+      }
+    }
+  },
+  "languages": [
+    {
+      "tag": "en",
+      "name": {
+        "en": "Englisn"
+      }
+    }
+  ],
+  "names": {}
+}
