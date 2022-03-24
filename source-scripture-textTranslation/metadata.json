@@ -15,7 +15,9 @@
     }
   },
   "confidential": false,
-  "copyright": {},
+  "copyright": {
+    "publicDomain": true
+  },
   "type": {
     "flavorType": {
       "name": "scripture",
