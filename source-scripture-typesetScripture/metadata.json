@@ -1,0 +1,57 @@
+{
+    "meta": {
+      "version": "1.0.0-beta2",
+      "category": "source",
+      "defaultLanguage": "en",
+      "dateCreated": "2022-03-24T00:00:00+00:00"
+    },
+    "idAuthorities": {
+      "xyz": {
+        "id": "https://example.com/xyz"
+      }
+    },
+    "identification": {
+      "primary": {
+        "xyz": {}
+      },
+      "name": {
+        "en": "minimal source scripture x-type-flavored burrito"
+      }
+    },
+    "confidential": false,
+    "copyright": {
+      "publicDomain": true
+    },
+    "type": {
+      "flavorType": {
+        "name": "scripture",
+        "flavor": {
+          "name": "typesetScripture",
+          "contentType": "pdf",
+          "pod": true,
+          "pageCount": 100,
+          "height": "297mm",
+          "width": "210mm",
+          "scale": "100%",
+          "colorSpace": "cmyk"
+        },
+        "currentScope": {
+          "1JN": []
+        }
+      }
+    },
+    "languages": [
+      {
+        "tag": "en",
+        "name": {
+          "en": "English"
+        }
+      }
+    ],
+    "ingredients": {
+      "text.txt": {
+        "size": 10,
+        "mimeType": "text/plain"
+      }
+    }
+  }
