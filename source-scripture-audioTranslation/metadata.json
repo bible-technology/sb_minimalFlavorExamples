@@ -5,7 +5,11 @@
     "defaultLanguage": "en",
     "dateCreated": "2022-03-24T00:00:00+00:00"
   },
-  "idAuthorities": {},
+  "idAuthorities": {
+    "xyz": {
+      "id": "https://example.com/xyz"
+    }
+  },
   "identification": {
     "primary": {
       "xyz": {}
