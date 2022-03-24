@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "version": "1.0.0-beta2",
+    "category": "source",
+    "defaultLanguage": "en",
+    "dateCreated": "2022-03-24T00:00:00+00:00"
+  },
+  "idAuthorities": {
+    "xyz": {
+      "id": "https://example.com/xyz"
+    }
+  },
+  "identification": {
+    "primary": {
+      "xyz": {}
+    },
+    "name": {
+      "en": "minimal source embossed braille scripture flavored burrito"
+    }
+  },
+  "confidential": false,
+  "copyright": {
+    "publicDomain": true
+  },
+  "type": {
+    "flavorType": {
+      "name": "scripture",
+      "flavor": {
+        "name": "embossedBrailleScripture",
+        "isContracted": true,
+        "processor": {
+          "name": "libLouis",
+          "version": "3.9.0",
+          "table": {
+            "src": "en-ueb-g2.ctb",
+            "name": "Unified English Braille Grade 2"
+          }
+        },
+        "numberSign": {
+          "character": "⠼",
+          "useInMargin": false
+        },
+        "content": {
+          "chapterNumberStyle": "upper",
+          "chapterHeadingsNumberFirst": false,
+          "versedParagraphs": false,
+          "verseSeparator": "⠀⠀",
+          "includeIntros": true
+        },
+        "page": {
+          "charsPerLine": 36,
+          "linesPerPage": 28,
+          "defaultMarginWidth": 3,
+          "versoLastLineBlank": false,
+          "carryLines": 2
+        }
+      },
+      "currentScope": {
+        "1JN": []
+      }
+    }
+  },
+  "languages": [
+    {
+      "tag": "en",
+      "name": {
+        "en": "English"
+      }
+    }
+  ],
+  "ingredients": {
+    "text.txt": {
+      "size": 10,
+      "mimeType": "text/plain"
+    }
+  }
+}
