@@ -1,0 +1,56 @@
+{
+  "format": "scripture burrito",
+  "meta": {
+    "version": "1.0.0-rc2",
+    "category": "derived",
+    "defaultLocale": "en",
+    "dateCreated": "2023-03-07T00:00:00+00:00"
+  },
+  "recipe": [],
+  "idAuthorities": {
+    "xyz": {
+      "id": "https://example.com/xyz"
+    }
+  },
+  "identification": {
+    "primary": {
+      "xyz": {}
+    },
+    "name": {
+      "en": "minimal derived scripture x-type-flavored burrito"
+    }
+  },
+  "confidential": false,
+  "copyright": {
+    "publicDomain": true
+  },
+  "type": {
+    "flavorType": {
+      "name": "scripture",
+      "flavor": {
+        "name": "textTranslation",
+        "projectType": "standard",
+        "translationType": "newTranslation",
+        "audience": "common",
+        "usfmVersion": "3.0"
+      },
+      "currentScope": {
+        "1JN": []
+      }
+    }
+  },
+  "languages": [
+    {
+      "tag": "en",
+      "name": {
+        "en": "English"
+      }
+    }
+  ],
+  "ingredients": {
+    "text.txt": {
+      "size": 10,
+      "mimeType": "text/plain"
+    }
+  }
+}
