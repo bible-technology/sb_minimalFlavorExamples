@@ -1,0 +1,43 @@
+{
+  "format": "scripture burrito",
+  "meta": {
+    "version": "1.0.0-rc2",
+    "category": "source",
+    "defaultLocale": "en",
+    "dateCreated": "2023-03-07T00:00:00+00:00"
+  },
+  "idAuthorities": {
+    "xyz": {
+      "id": "https://example.com/xyz"
+    }
+  },
+  "identification": {
+    "primary": {
+      "xyz": {}
+    },
+    "name": {
+      "en": "minimal source gloss textStories-flavored burrito"
+    }
+  },
+  "confidential": false,
+  "copyright": {
+    "publicDomain": true
+  },
+  "type": {
+    "flavorType": {
+      "name": "gloss",
+      "flavor": {
+        "name": "textStories"
+      },
+      "currentScope": {
+        "1JN": []
+      }
+    }
+  },
+  "ingredients": {
+    "text.txt": {
+      "size": 10,
+      "mimeType": "text/plain"
+    }
+  }
+}

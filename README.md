@@ -8,6 +8,7 @@ Minimal Scripture Burritos for each Flavor
 * source-scripture-typesetScripture
 * source-scripture-embossedBrailleScripture
 * source-gloss-x
+* source-gloss-textStories
 * derived-scripture-x
 * derived-scripture-textTranslation
 
