@@ -6,7 +6,11 @@
     "defaultLocale": "en",
     "dateCreated": "2023-03-07T00:00:00+00:00"
   },
-  "recipe": [],
+  "recipe": [{
+    "idAuthority": "xyz",
+    "operation": "operation",
+    "data": {}
+  }],
   "idAuthorities": {
     "xyz": {
       "id": "https://example.com/xyz"
