@@ -12,4 +12,4 @@ Minimal Scripture Burritos for each Flavor
 * derived-scripture-x
 * derived-scripture-textTranslation
 
-Following 1.0.0-rc2
+Following 1.0.0-rc3
